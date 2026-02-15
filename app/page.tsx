@@ -86,9 +86,9 @@ export default function Portfolio() {
 
           {/* Bio */}
           <p className="text-lg text-slate-700 leading-relaxed max-w-4xl mx-auto">
-            Computer Science graduate with strong experience in full-stack and backend software development, including building
-            production-grade APIs, AWS serverless services, and scalable web applications. Proven ability to deliver reliable software in
-            Agile environments with a solid foundation in data structures, system design, and cloud technologies.
+            Computer Science graduate with hands-on experience building scalable backend systems, AI-powered applications, and full-stack web platforms. I have developed production-grade AWS Lambda services, fault-tolerant REST APIs, and secure database-driven applications used in real-world environments.
+
+My interests lie in backend engineering, cloud architecture, and applied AI—especially designing reliable systems that combine structured APIs with intelligent workflows. I enjoy solving complex technical problems, improving system performance, and building clean, maintainable software that scales.
           </p>
         </div>
       </section>
