@@ -79,6 +79,10 @@ export default function Portfolio() {
           <p className="text-xl md:text-2xl text-slate-200 font-light">
             Software Developer &amp; Computer Science Graduate
           </p>
+          <div className="mx-auto mt-4 inline-flex items-center rounded-full border border-slate-700 bg-slate-900 px-4 py-2 text-sm text-sky-300">
+            <Briefcase className="w-4 h-4 mr-2" />
+            Currently: AI Automation Developer at Melanin Valley
+          </div>
 
           {/* Contact */}
           <div className="flex flex-wrap justify-center gap-6 pt-4 text-slate-300 text-base">
@@ -110,11 +114,11 @@ export default function Portfolio() {
           {/* Bio */}
           <div className="pt-8">
             <p className="text-lg md:text-xl text-slate-200 leading-relaxed max-w-3xl mx-auto">
-              Computer Science graduate with strong experience in full-stack and backend software
-              development, including building production-grade APIs, AWS serverless services, and
-              scalable web applications. Proven ability to deliver reliable software in Agile
-              environments with a solid foundation in data structures, system design, and cloud
-              technologies.
+              Computer Science graduate with experience in AI-driven systems, backend development, 
+              and scalable software engineering. Skilled in building REST APIs, LLM-powered workflows, 
+              and cloud-based applications using Python, JavaScript/TypeScript. Strong foundation in 
+              system design, data structures, and secure software development with experience delivering 
+              production-ready features in Agile teams. Passionate about building reliable AI and full-stack systems. 
             </p>
           </div>
         </div>
@@ -262,29 +266,26 @@ export default function Portfolio() {
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
                   <span>
-                    Built and optimized AWS Lambda backend services using the Serverless Framework
-                    to improve scalability and reliability.
+                    Updated AWS Lambda memory settings in Serverless Framework from 2048 MB to 10240 MB to prevent crashes.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
                   <span>
-                    Implemented fault-tolerant workflows with structured error handling and
-                    CloudWatch logging to reduce errors by 90%.
+                    Resolved duplicate prescription issues by redesigning API response handling and frontend retry behavior, introducing
+recalculation status tracking to prevent duplicate record creation caused by timeout-based retries.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
                   <span>
-                    Improved system observability by filtering invalid CRM logs during inactive
-                    dialer sessions, increasing data accuracy.
+                    Improved CRM data integrity by enforcing dialer-state validation before logging Click-to-Dial activity.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
                   <span>
-                    Developed and tested REST APIs in JavaScript and TypeScript using Postman,
-                    contributing to 5+ production releases.
+                    Developed and tested REST APIs in JavaScript and TypeScript using Postman, contributing to 5+ production releases.
                   </span>
                 </li>
               </ul>
@@ -356,8 +357,8 @@ export default function Portfolio() {
                   <h3 className="text-2xl font-semibold text-slate-50 mb-1">
                     Software Engineering Intern – Mobile Development
                   </h3>
-                  <h4 className="text-base text-slate-200 font-medium mb-3">
-                    Key Chain Applications (Startup)
+                  <h4 className="text-base text-sky-300 font-medium mb-3">
+                    KeyChain Applications (Startup)
                   </h4>
                   <div className="flex flex-wrap gap-2">
                     {['Dart', 'Flutter', 'Android', 'Provider', 'UI/UX'].map((tech) => (
