@@ -160,6 +160,69 @@ export default function Portfolio() {
             Experience
           </h2>
           <div className="space-y-8">
+            {/* AI Automation Developer - Melanin Valley */}
+            <div className="bg-slate-800/80 rounded-2xl p-8 border border-slate-700 shadow-sm hover:shadow-lg transition-shadow">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6 gap-4">
+                <div className="flex-1">
+                  <h3 className="text-2xl font-semibold text-slate-50 mb-1">
+                    AI Automation Developer
+                  </h3>
+                  <h4 className="text-base text-sky-300 font-medium mb-3">
+                    Melanin Valley
+                  </h4>
+                  <div className="flex flex-wrap gap-2">
+                    {[
+                      'Python',
+                      'Playwright',
+                      'Pandas',
+                      'Google Apps Script',
+                      'Gmail API',
+                      'Wix & GoAffPro'
+                    ].map((tech) => (
+                      <span
+                        key={tech}
+                        className="px-3 py-1 bg-slate-900 border border-slate-600 text-slate-100 rounded-full text-xs font-medium"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="text-right text-sm">
+                  <div className="text-slate-200 font-medium mb-1">
+                    April 2026 – Present
+                  </div>
+                  <div className="text-slate-400">United States</div>
+                </div>
+              </div>
+              <ul className="space-y-3 text-slate-200 text-sm">
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
+                  <span>
+                    Architected 6 Google Apps Script workflows with Gmail API integrations, eliminating manual onboarding processes.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
+                  <span>
+                    Built a document generation system that automated agreement creation and qualification-based email workflows.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
+                  <span>
+                    Developed Python pipelines using Playwright and Pandas to process and deduplicate 12K+ healthcare provider records.
+                  </span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 bg-sky-500 rounded-full mt-2 flex-shrink-0" />
+                  <span>
+                    Configured Wix and GoAffPro automations for member acquisition, outreach, and referral tracking.
+                  </span>
+                </li>
+              </ul>
+            </div>
+
             {/* Software Developer Intern - SelectQuote */}
             <div className="bg-slate-800/80 rounded-2xl p-8 border border-slate-700 shadow-sm hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6 gap-4">
